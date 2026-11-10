@@ -21,3 +21,6 @@ jobs:
           test -f role-shells.md
           grep -q 'AC-1.5' role-shells.md
           grep -q 'AC-1.6' role-shells.md
+          test -f tally.md
+          grep -q 'AC-2.3' tally.md
+          grep -q 'ON AIR' tally.md
