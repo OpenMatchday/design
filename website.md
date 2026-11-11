@@ -17,7 +17,8 @@ Static HTML/CSS under `website/site/`, published as a GitHub Pages project site.
 | Capabilities | `capabilities.html` | Generated verified/partial/unverified matrix |
 | Sports | `sports.html` | Generated available + planned catalog (AC-6.5) |
 | Themes | `themes.html` | Generated declarative theme catalog |
-| Registry | `registry.html` | Searchable public registry index |
+| Assets | `assets.html` | Default package courts, formations, scoreboard schemas |
+| Registry | `registry.html` | Searchable fictional registry samples (not live matches) |
 | Privacy | `privacy.html` | Local-first, registry, contact stub |
 | Takedown | `takedown.html` | Public takedown stub; no Git-history erasure promise |
 
