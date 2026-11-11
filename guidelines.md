@@ -27,7 +27,7 @@ Every interactive control exposes default, hover, pressed/active, focus-visible,
 
 - Contrast pairs listed in `tokens/brand.tokens.v0.json` must pass AA (4.5:1 normal text).
 - Icon-only controls need accessible names.
-- Semantic buttons/links; skip link on multi-section website pages (OM-038+).
+- Semantic buttons/links; skip link on multi-section website pages (see [`website.md`](website.md)).
 - `color-scheme: dark` on dark website chrome.
 
 ## Related role notes

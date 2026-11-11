@@ -44,5 +44,5 @@ Absent from brand assets and product UI:
 ## Consumers
 
 - `app` mirrors tokens in Dart (`lib/design/`).
-- `website` mirrors CSS custom properties under `site/`.
+- `website` mirrors CSS custom properties under `site/` (page inventory in [`website.md`](website.md)).
 - Broadcast `themes` packages remain separate declarative data (see [`themes.md`](themes.md)).

@@ -13,6 +13,7 @@ const required = [
   "role-shells.md",
   "connected-accounts.md",
   "themes.md",
+  "website.md",
   "tokens/brand.tokens.v0.json",
   "tokens/brand.css",
   "icons/mark.svg",
@@ -95,6 +96,7 @@ for (const needle of requiredCss) {
 const brandMd = readFileSync(join(root, "brand.md"), "utf8")
 const guidelines = readFileSync(join(root, "guidelines.md"), "utf8")
 const tally = readFileSync(join(root, "tally.md"), "utf8")
+const websiteMd = readFileSync(join(root, "website.md"), "utf8")
 const mark = readFileSync(join(root, "icons/mark.svg"), "utf8")
 
 const markers = [
@@ -105,6 +107,9 @@ const markers = [
   [tally, "ON AIR"],
   [tally, "AC-2.3"],
   [tally, tokens.tally.on_air_bg],
+  [websiteMd, "AC-12.2"],
+  [websiteMd, "AC-12.3"],
+  [websiteMd, "index.html"],
   [mark, "MIT"],
   [mark, "Open Matchday"],
   [mark, tokens.tally.on_air_bg],
