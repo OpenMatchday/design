@@ -24,3 +24,7 @@ jobs:
           test -f tally.md
           grep -q 'AC-2.3' tally.md
           grep -q 'ON AIR' tally.md
+          test -f connected-accounts.md
+          grep -q 'AC-11.1' connected-accounts.md
+          grep -q 'AC-11.2' connected-accounts.md
+          grep -q 'social_connections' connected-accounts.md

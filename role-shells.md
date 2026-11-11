@@ -15,7 +15,7 @@ Seven production roles must each be assignable as a shell. Combinations on one d
 | Scoreboard Reader | Calibration-first | Board capture, OCR |
 | Event Operator | Dense numeric | Clocks, scores, authority |
 | Graphics Operator | Layout grid | Scenes, themes, drafts |
-| Social Operator | Draft desk | Templates, export, publish approval |
+| Social Operator | Draft desk | Templates, export, connected accounts, publish approval |
 | Program Monitor | View-only | Program (optional Preview), no control |
 
 ## Layout rules (using-ui-stack)
