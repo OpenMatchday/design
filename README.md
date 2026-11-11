@@ -1,17 +1,29 @@
 # Open Matchday -- design
 
-Brand, design system, original icons, and UI guidelines for Open Matchday
+Brand, design system, original icons, and UI guidelines for Open Matchday.
 
 Part of the [OpenMatchday](https://github.com/OpenMatchday) organization.
 
-## Guidelines
+## Design system (OM-037 / AC-12.1)
 
-- [Role shells (OM-012)](role-shells.md) — seven assignable roles; combination capacity gates; spacing and banned patterns until OM-037.
-- [Tally (OM-015)](tally.md) — unmistakable Program camera on-air indicator (AC-2.3).
-- [Themes (OM-024)](themes.md) — declarative theme package rules, WCAG AA, token contract; full design system remains OM-037.
-- [Connected accounts (OM-036)](connected-accounts.md) — separate credential planes; provider, capabilities, status, revoke (AC-11.1 / AC-11.2).
+- [Brand identity](brand.md)
+- [UI guidelines](guidelines.md) — dark director / daylight camera
+- [Tokens JSON](tokens/brand.tokens.v0.json) / [Tokens CSS](tokens/brand.css)
+- [Brand mark](icons/mark.svg)
 
+## Role and feature guidelines
+
+- [Role shells](role-shells.md) — seven assignable roles; combination capacity gates
+- [Tally](tally.md) — unmistakable Program camera on-air indicator (AC-2.3)
+- [Themes](themes.md) — declarative broadcast theme packages (separate from product UI)
+- [Connected accounts](connected-accounts.md) — credential planes (AC-11.1 / AC-11.2)
+
+## Checks
+
+```bash
+npm run check
+```
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE). Asset files include MIT headers where applicable.

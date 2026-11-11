@@ -1,0 +1,12 @@
+{
+  "name": "@openmatchday/design",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open Matchday brand and design system tokens",
+  "scripts": {
+    "check": "node scripts/check-design.mjs",
+    "test": "node scripts/check-design.mjs"
+  },
+  "license": "MIT"
+}

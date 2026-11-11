@@ -9,15 +9,20 @@ permissions:
   contents: read
 
 jobs:
-  bootstrap:
+  design:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - name: Verify bootstrap files
+      - name: Verify license and brand files
         run: |
           test -f README.md
           test -f LICENSE
+          test -f brand.md
+          test -f guidelines.md
+          test -f tokens/brand.tokens.v0.json
+          test -f tokens/brand.css
+          test -f icons/mark.svg
           test -f role-shells.md
           grep -q 'AC-1.5' role-shells.md
           grep -q 'AC-1.6' role-shells.md
@@ -28,3 +33,10 @@ jobs:
           grep -q 'AC-11.1' connected-accounts.md
           grep -q 'AC-11.2' connected-accounts.md
           grep -q 'social_connections' connected-accounts.md
+          grep -q 'AC-12.1' brand.md
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "22"
+      - name: Check design system
+        run: npm run check

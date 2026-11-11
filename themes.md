@@ -1,6 +1,6 @@
 # Theme packages (OM-024)
 
-Guidance for declarative broadcast themes consumed by graphics. Product UI design system remains OM-037.
+Guidance for declarative broadcast themes consumed by graphics. Product UI brand tokens live in [`brand.md`](brand.md) / [`tokens/brand.tokens.v0.json`](tokens/brand.tokens.v0.json) (OM-037).
 
 ## Rules
 

@@ -1,6 +1,6 @@
-# Connected accounts guidelines (OM-036)
+# Connected accounts guidelines
 
-Guidelines only until the design system lands (OM-037). Sources: PROJECT_SPEC AC-11.1, AC-11.2.
+Sources: PROJECT_SPEC AC-11.1, AC-11.2; [`brand.md`](brand.md).
 
 ## Purpose
 
@@ -30,7 +30,7 @@ Each connection lists:
 
 Never show access tokens, refresh tokens, or passphrases.
 
-## Layout rules (using-ui-stack)
+## Layout rules
 
 - Spacing on an 8px grid: 8 / 16 / 24.
 - Touch targets at least 44x44 for Connect and Revoke.
@@ -41,6 +41,6 @@ Never show access tokens, refresh tokens, or passphrases.
 
 No purple gradients, glassmorphism, fake engagement metrics, emoji, or invented provider badges.
 
-## Brand note
+## Brand
 
-Full brand tokens ship in OM-037. Until then, keep restrained green-on-dark chrome consistent with the app seed (`#1B4D3E`).
+Use dark director tokens from [`tokens/brand.tokens.v0.json`](tokens/brand.tokens.v0.json).

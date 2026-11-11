@@ -1,6 +1,6 @@
-# Role shell guidelines (OM-012)
+# Role shell guidelines
 
-Guidelines only until the design system lands (OM-037). Sources: PROJECT_SPEC roles and AC-12.1.
+Sources: PROJECT_SPEC roles and AC-12.1; [`brand.md`](brand.md); [`guidelines.md`](guidelines.md).
 
 ## Purpose
 
@@ -10,15 +10,15 @@ Seven production roles must each be assignable as a shell. Combinations on one d
 
 | Role | Shell tone | Responsibility cue |
 |---|---|---|
-| Director | Dark workspace | Approvals, Preview/Program, health |
-| Camera | Daylight-leaning controls on dark chrome | Capture, tally receive |
-| Scoreboard Reader | Calibration-first | Board capture, OCR |
-| Event Operator | Dense numeric | Clocks, scores, authority |
-| Graphics Operator | Layout grid | Scenes, themes, drafts |
-| Social Operator | Draft desk | Templates, export, connected accounts, publish approval |
-| Program Monitor | View-only | Program (optional Preview), no control |
+| Director | Dark director workspace | Approvals, Preview/Program, health |
+| Camera | Daylight controls + tally | Capture, tally receive |
+| Scoreboard Reader | Daylight calibration panels | Board capture, OCR |
+| Event Operator | Dark dense numeric | Clocks, scores, authority |
+| Graphics Operator | Dark layout grid | Scenes, themes, drafts |
+| Social Operator | Dark draft desk | Templates, export, connected accounts, publish approval |
+| Program Monitor | Dark view-only | Program (optional Preview), no control |
 
-## Layout rules (using-ui-stack)
+## Layout rules
 
 - Spacing on an 8px grid: 8 / 16 / 24.
 - Touch targets at least 44x44.
@@ -34,6 +34,6 @@ Do not use purple gradients, blobs, glassmorphism, stock clutter, fake numbers, 
 
 When a multi-role set is `unverified` or `out of scope`, release builds must refuse enablement and state the matrix cell. Partial cells may enable only with the documented limits string shown to the operator.
 
-## Brand note
+## Brand
 
-Full brand tokens ship in OM-037. Until then, keep restrained green-on-dark chrome consistent with the app seed (`#1B4D3E`) and unmistakable active-shell borders.
+Use `director.*` and `camera_daylight.*` from [`tokens/brand.tokens.v0.json`](tokens/brand.tokens.v0.json). Active-shell borders use `director.border_active`.
