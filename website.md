@@ -19,10 +19,12 @@ Static HTML/CSS under `website/site/`, published as a GitHub Pages project site.
 | Themes | `themes.html` | Generated declarative theme catalog |
 | Assets | `assets.html` | Default package courts, formations, scoreboard schemas |
 | Registry | `registry.html` | Searchable fictional registry samples (not live matches) |
+| Contribute | `contribute.html` | Google sign-in + registry submission wizard (calls community API) |
+| Status | `status.html` | Submission status lookup (queued / PR opened / changes requested / merged / rejected) |
 | Privacy | `privacy.html` | Local-first, registry, contact stub |
 | Takedown | `takedown.html` | Public takedown stub; no Git-history erasure promise |
 
-Deferred: contribution wizard + status (OM-040).
+Community API base URL lives in `website/data/site-meta.v0.json` (`community_api_base`). No community secrets in the static site.
 
 ## SEO and a11y (AC-12.4)
 
